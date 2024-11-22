@@ -37,9 +37,8 @@ class About(Screen):
 		AboutText += _("CPU: ") + cpu + "\n"
 		AboutText += _("Image: ") + about.getImageTypeString() + "\n"
 		AboutText += _("OE Version: 4.0.16") + "\n"
-		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"        
-		AboutText += _("Last update: 2024-03-25")  + "\n"
-		AboutText += _("Build Image: OpenDelta-Team") + "\n"
+		AboutText += _("Build date: ") + about.getBuildDateString() + "\n"
+		AboutText += _("Last update: ") + about.getUpdateDateString() + "\n"
 		AboutText += _("Forum: https://areadeltasat.net") + "\n"
         
 
